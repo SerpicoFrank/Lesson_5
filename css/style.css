@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:regular,700&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Yomogi:regular&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Underdog";
+	src: url("../fonts/Underdog-Regular.woff2") format("woff2"), url("../fonts/Underdog-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Cony";
+	src: url("../fonts/Cony.woff2") format("woff2"),  url("../fonts/Cony.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Cony";
+	src:  url("../fonts/Cony-Bold.woff2") format("woff2"),  url("../fonts/Cony-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	background-color: rgba(128, 128, 128, 0.342);
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ______________________________________________________ */
+
+
+.p1 {
+	background-color: thistle;
+	font-family: "underdog";
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	width: 400px;
+	height: 50px;
+	border: 2px solid fuchsia;
+	padding: 10px;
+	margin: 0px auto 20px auto;
+}
+.p2 {
+	background-color: thistle;
+	font-family: "underdog";
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	width: 400px;
+	height: 50px;
+	border: 2px solid fuchsia;
+	padding: 10px;
+	margin: 0px auto 20px auto;
+}
+.p3 {
+	background-color: thistle;
+	font-family: "underdog";
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	width: 400px;
+	height: 50px;
+	border: 2px solid fuchsia;
+	padding: 10px;
+	margin: 0px auto 20px auto;
+}
+.p4 {
+	background-color: thistle;
+	font-family: "underdog";
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	width: 400px;
+	height: 50px;
+	border: 2px solid fuchsia;
+	padding: 10px;
+	margin: 0px auto 50px auto;
+}
+.text {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.text1 {
+	display: inline-block;
+	background-color: rgba(255, 105, 180, 0.651);
+	font-family: "underdog";
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 2px solid fuchsia;
+	margin: 0px 30px 0px 0px;
+	padding: 15px;
+}
+.text2 {
+	display: inline-block;
+	background-color: rgba(255, 105, 180, 0.651);
+	font-family: "underdog";
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 2px solid fuchsia;
+	margin: 0px 30px 0px 0px;
+	padding: 15px;
+}
+.text3 {
+	display: inline-block;
+	background-color: rgba(255, 105, 180, 0.651);
+	font-family: "underdog";
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 2px solid fuchsia;
+	padding: 15px;
+}
+.import {
+	text-align: center;
+}
+.import1 {
+	background-color: rgba(218, 112, 214, 0.671);
+	color: black;
+	font-family: "underdog";
+	font-size: 30px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	border-radius: 10px;
+	border: 2px solid fuchsia;
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+}
+.paragraf {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.p {
+	background-color: rgba(255, 182, 193, 0.692);
+	font-family: "underdog";
+	font-size: 20px;
+	text-align: center;
+	border: 2px solid fuchsia;
+	display: inline-block;
+	width: 100px;
+	padding: 10px;
+	margin: 0px 30px 0px 0px;
+}
+.texttext1 {
+	background-color: rgba(186, 85, 211, 0.801);
+	font-family: "underdog";
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 2px solid fuchsia;
+	margin: 0px auto;
+	padding: 30px;
+}
+.texttext2 {
+	background-color: rgba(216, 112, 147, 0.596);
+	font-family: "underdog";
+	font-size: 21px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 2px solid fuchsia;
+	margin: -90px auto 50px auto;
+	padding: 30px;
+}
+.s {
+	background-color: thistle;
+	font-family: "underdog";
+	text-align: center;
+	font-size: 20px;
+	display: block;
+	width: 200px;
+	height: 200px;
+	border: 2px solid fuchsia;
+	padding: 10px;
+	margin: 0px auto 150px auto;
+	overflow: auto;
+}
+img {
+	background-color: thistle;
+	display: block;
+	margin: 0px auto 100px auto;
+	padding: 50px;
+}
+
+
+
